@@ -84,7 +84,7 @@ h1 {
 footer {
     background: black;
     color: white;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 90%;
     padding: 0.5rem;
