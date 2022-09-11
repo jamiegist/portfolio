@@ -6,15 +6,17 @@ header {
     background: black;
     color: white;
     padding: 1rem;
-    width: 90%;
+    width: 100vw;
     overflow: none;
     justify-content: center;
     text-align: left;
     margin-bottom: 1rem;
+    height: 0.1;
 }
 
 header h3 {
     margin-bottom: 1rem;
+    padding-right: 1.5rem;
 }
 
 .resume a {
@@ -30,7 +32,7 @@ header h3 {
 body {
     max-width: 20000px;
     min-width: 320px;
-    height: auto;
+    height: 0.8;
 }
 
 h1 {
@@ -40,6 +42,7 @@ h1 {
 .projects {
     display: flex;
     padding: 0.5rem;
+    width: 90vw;
 }
 
 .heading {
@@ -61,7 +64,7 @@ h1 {
 
 .shop-page img {
     height: auto;
-    width: 300px;
+    width: 20vw;
 }
 
 .signup {
@@ -78,19 +81,37 @@ h1 {
 
 .signup img {
     height: auto;
-    width: 400px;
+    width: 20vw;
 }
 
 footer {
     background: black;
     color: white;
-    position: relative;
+    position: fixed;
     bottom: 0;
-    width: 90%;
+    width: 100vw;
     padding: 0.5rem;
+    height: 0.1;
 }
 
 a {
     font-weight: 200px;
     color: white;
+}
+
+.spotify-clone {
+    display: flex;
+    flex-direction: column;
+}
+
+.spotify-clone img {
+    height: 20vh;
+    width: auto;
+    padding: 0.5rem;
+}
+
+.spotify-clone a {
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
 }
