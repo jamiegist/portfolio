@@ -23,6 +23,10 @@ nav a:hover {
     color: lightgrey;
 }
 
+li a {
+    color: white;
+}
+
 ul {
     list-style: none;
 }
