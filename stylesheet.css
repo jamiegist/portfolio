@@ -57,8 +57,8 @@ ul {
 .about {
     text-align: center;
     font-size: 22px;
-    background: lightgrey;
-    color: black;
+    background: #5d88d9;
+    color: whitesmoke;
     padding: 2em;
 }
 
@@ -84,12 +84,16 @@ h1 {
 }
 
 .projects {
-    background-image: radial-gradient(grey, black, white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 2em;
+    background: black;
+    color: white;
+    border-radius: 3em;
 }
 
 .projects a {
-    display: flex;
     color: white;
     justify-content: center;
     font-size: 30px;
@@ -98,7 +102,7 @@ h1 {
 }
 
 .projects a:hover {
-    font-size: 34px;
+    color: darkgrey;
 }
 
 .heading {
@@ -123,8 +127,8 @@ img {
 }
 
 footer {
-    background: lightgrey;
-    color: black;
+    background: #5d88d9;
+    color: whitesmoke;
     width: 100vw;
     padding: 0.5rem;
     bottom: 0;
