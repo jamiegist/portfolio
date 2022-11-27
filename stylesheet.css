@@ -41,11 +41,10 @@ ul {
     color: black;
     display: flex;
     justify-content: center;
-    font-size: 18px;
-    outline: solid;
-    width: 15%;
-    padding: 0.25rem;
+    font-size: 28px;
     text-decoration: none;
+    box-shadow: 10px 5px 5px black;
+    padding: 0.5em;
 }
 
 .resume a:hover {
@@ -88,21 +87,26 @@ h1 {
     justify-content: center;
     align-items: center;
     padding: 2em;
-    background: black;
-    color: white;
-    border-radius: 3em;
+    color: black;
 }
 
 .projects a {
-    color: white;
+    color: black;
     justify-content: center;
     font-size: 30px;
     text-decoration: none;
     cursor: pointer;
+    box-shadow: 10px 5px 5px black;
+    padding: 0.5em;
 }
 
 .projects a:hover {
-    color: darkgrey;
+    background: silver;
+    color: white;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
 
 .heading {
