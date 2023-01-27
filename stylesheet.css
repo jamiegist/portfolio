@@ -57,8 +57,8 @@ ul {
 .about {
     text-align: center;
     font-size: 22px;
-    background: #5d88d9;
-    color: whitesmoke;
+    background-color: white;
+    color: black;
     padding: 2em;
 }
 
@@ -136,17 +136,24 @@ h1 {
 }
 
 footer {
-    background: #5d88d9;
-    color: whitesmoke;
-    width: 100vw;
-    padding: 0.5rem;
+    background: white;
+    color: black;
+    width: 100%;
     bottom: 0;
     position: fixed;
     font-size: 22px;
 }
 
-footer h1 {
+footer h1 , p {
     text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    padding: 5px;
 }
 
 a {
@@ -212,4 +219,9 @@ a {
 
 .music-app p {
     font-size: 22px;
+}
+
+h4 {
+    font-size: 25px;
+    text-align: center;
 }
