@@ -69,6 +69,7 @@ header h1 {
 
 
 body {
+    margin: 0;
     max-width: 20000px;
     min-width: 320px;
 }
@@ -145,7 +146,7 @@ a {
 .projects-container {
     display: grid;
     place-items: center;
-    margin: 10px;
+    margin: 0;
 }
 
 .projects-container img {
@@ -169,6 +170,17 @@ a {
 
 .projects-container p {
     font-size: 22px;
+}
+
+.spotify-search {
+    background-image: linear-gradient(green, black);
+    color: white;
+    padding-bottom: 0.5em;
+}
+
+.shop-page {
+    background-image: linear-gradient(royalblue, white);
+    padding-top: 0.5em;
 }
 
 /* iOS Styling */
