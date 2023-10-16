@@ -187,75 +187,12 @@ h1 {
     text-align: center;
 }
 
-.front-end {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-    color: black;
-}
-
-.front-end a {
-    color: black;
-    justify-content: center;
-    font-size: 30px;
-    text-decoration: none;
-    cursor: pointer;
-    box-shadow: 10px 5px 5px black;
-    padding: 0.5em;
-}
-
-.front-end a:hover {
-    background: grey;
-    color: white;
-}
-
-.heading {
-    margin-top: 0.25rem;
-}
-
-.front-end-img {
-    width: 90%;
-}
-
-a {
-    font-weight: 200px;
-    color: black;
-}
-
-/* Styling for the Front End Page */
-
-.projects-container {
-    display: grid;
-    place-items: center;
-    margin: 0;
-}
-
-.projects-container img {
-    object-fit: contain;
-    height: 50vh;
-    width: 500px;
+.source-code {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    align-items: center;
 }
 
-.projects-container img:hover {
-    background-color: grey;
-    opacity: 0.7;
-    cursor: pointer;
-}
-
-.projects-container h2 {
-    font-size: 30px;
-}
-
-.projects-container p {
-    font-size: 22px;
-}
-
-.spotify-search {
-    background-image: linear-gradient(green, black);
-    color: white;
-    padding-bottom: 0.5em;
+.source-code a {
+    margin-right: 5em;
 }
