@@ -187,12 +187,7 @@ h1 {
     text-align: center;
 }
 
-.source-code {
-    display: block;
-    text-align: center;
-    align-items: center;
-}
-
-.source-code a {
-    margin-right: 5em;
+.source-code a:hover {
+    color: black;
+    text-decoration: none;
 }
