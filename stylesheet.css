@@ -11,6 +11,7 @@ header {
     overflow: none;
     justify-content: center;
     text-align: center;
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; 
     display: flex;
 }
 
@@ -18,6 +19,7 @@ header > h3 {
     display: flex;
     text-align: center;
     justify-content: center;
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; 
 }
 
 nav {
@@ -28,7 +30,7 @@ nav {
 nav a {
     list-style: none;
     text-decoration: none;
-    font-family: Robotica, Arial, Helvetica, sans-serif;
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; 
     font-size: 20px;
     display: flex;
 }
@@ -81,6 +83,8 @@ ul {
 
 #intro-description {
     font-size: 1.5em;
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; 
+    color: white;
 }
 
 header h1 {
@@ -93,6 +97,7 @@ body {
     margin: 0;
     max-width: 20000px;
     min-width: 320px;
+    background-color: black;
 }
 
 h1 {
@@ -101,6 +106,11 @@ h1 {
     font-size: 50px;
     background-color: black;
     color: white;
+}
+
+main {
+    background-color: black;
+    height: 100%;
 }
 
 .main-intro {
@@ -114,80 +124,28 @@ h1 {
     justify-content: center;
 }
 
-.img-container {
-    position: relative;
-    width: 50%;
-    padding: 5px;
-}
-
-.img-container:hover .overlay-amazon {
-    opacity: 1;
-}
-
-.img-container:hover .overlay-spotify {
-    opacity: 1;
-}
-
-.image {
-    display: block;
+.image img {
+    display: flex;
+    text-align: center;
+    width: 55%;
     height: auto;
-    width: 100%;
-    align-items: center;
+    margin-left: 23%;
+    padding-bottom: 10px;
 }
 
-.overlay-amazon {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #ff9900;
+.image img:hover {
+    color: lightgrey;
 }
 
-.overlay-spotify {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #1db954;
-}
-
-.overlay-text {
-    color: black;
-    text-decoration: none;
-    font-size: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.overlay-text:visited {
-    color: black;
-    text-decoration: none;
-    font-size: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+.source-code a {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; 
 }
 
 .source-code a:hover {
-    color: black;
+    color: grey;
     text-decoration: none;
 }
