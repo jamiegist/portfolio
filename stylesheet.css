@@ -58,7 +58,7 @@ ul {
 }
 
 .resume a {
-    color: black;
+    color: white;
     display: flex;
     justify-content: center;
     font-size: 28px;
@@ -117,6 +117,15 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+h4 {
+    display: flex;
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+    text-align: center;
+    justify-content: center;
+    color: white;
+
 }
 
 .container {
