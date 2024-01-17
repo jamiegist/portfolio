@@ -125,7 +125,14 @@ h4 {
     text-align: center;
     justify-content: center;
     color: white;
+}
 
+h3 {
+    display: flex;
+    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+    text-align: center;
+    justify-content: center;
+    color: white;
 }
 
 .container {
