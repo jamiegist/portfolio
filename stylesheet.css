@@ -11,15 +11,15 @@ header {
     overflow: none;
     justify-content: center;
     text-align: center;
-    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; 
+    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
     display: flex;
 }
 
-header > h3 {
+header>h3 {
     display: flex;
     text-align: center;
     justify-content: center;
-    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; 
+    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
 }
 
 nav {
@@ -30,7 +30,7 @@ nav {
 nav a {
     list-style: none;
     text-decoration: none;
-    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; 
+    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
     font-size: 20px;
     display: flex;
 }
@@ -52,9 +52,9 @@ ul {
 }
 
 .resume {
-   display: flex;
-   justify-content: center;
-   padding: 2.5em;
+    display: flex;
+    justify-content: center;
+    padding: 2.5em;
 }
 
 .resume a {
@@ -83,7 +83,7 @@ ul {
 
 #intro-description {
     font-size: 1.5em;
-    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; 
+    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
     color: white;
 }
 
@@ -121,7 +121,7 @@ main {
 
 h4 {
     display: flex;
-    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
     text-align: center;
     justify-content: center;
     color: white;
@@ -129,7 +129,7 @@ h4 {
 
 h3 {
     display: flex;
-    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace;
+    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
     text-align: center;
     justify-content: center;
     color: white;
@@ -153,12 +153,33 @@ h3 {
     color: lightgrey;
 }
 
+.website-link a {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.website-link a:visited {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.website-link a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
 .source-code a {
     display: flex;
     justify-content: center;
     padding: 5px;
     color: white;
-    font-family: Lucida Sans Typewriter,Lucida Console,monaco,Bitstream Vera Sans Mono,monospace; 
+    font-family: Lucida Sans Typewriter, Lucida Console, monaco, Bitstream Vera Sans Mono, monospace;
 }
 
 .source-code a:hover {
