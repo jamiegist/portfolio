@@ -201,8 +201,9 @@ h3 {
 }
 
 .image-preview img {
-    max-width: 500px;
-    height: 100%;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
     display: block;
     object-fit: contain;
     border: 1px solid #333;
@@ -247,6 +248,11 @@ h3 {
 }
 
 @media (max-width: 768px) {
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
     .project-container {
         padding-left: 1rem;
         padding-right: 1rem;
